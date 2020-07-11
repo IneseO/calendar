@@ -1,0 +1,165 @@
+body{
+  position: relative;
+  width: 1440px;
+  height: 1366px;
+
+  border-radius: 10px;
+  background-color: rgba(42, 39, 49, 1);
+}
+
+h2{
+  color: #EEECF1;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 44px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.56px;
+}
+
+ th, tr, td {
+  align-items:justify;
+
+}
+$header-height: 48px;
+header {
+  display: flex;
+  background-color: black;
+  width: 802px;
+  height: $header-height;
+  justify-content: space-between;
+  padding: 12px 24px;
+  margin: 25px;
+}
+#calendar-type {
+  position: absolute;
+  justify-content: flex-end;
+  width: 476px;
+  height: 48px;
+  right: 24px;
+  top: 112px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center
+}
+#calendar-type a {
+text-decoration: none;
+justify-content: flex-end;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+flex-direction: row;
+padding: 8px 30px;
+color: #EEECF1;
+display: flex;
+align-items: center;
+text-align: center;
+}
+ svg {
+
+ }
+nav {
+  margin-top: 20px;
+  margin-right: 16px;
+  justify-content: flex-end;
+  }
+
+nav a {
+  text-decoration: none;
+  color: #CDC9D6;
+  font-size:  16px;
+  line-height: 24px;
+  padding: 8px 30px;
+}
+nav a:hover, nav a.active{
+  background: #133774;
+  border-radius: 99px;
+}
+#top-menu {
+  float: right;
+}
+
+/*table, th, td, tr {
+  border: 1px solid green;
+}*/
+#center{
+  position: absolute;
+  left: 142px;
+  right: 496px;
+  top: 0px;
+  bottom: 0px;
+}
+
+button {
+
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: absolute;
+  width: 47.43px;
+  height: 47.43px;
+  right: 24px;
+
+  background: #3C3844;
+  border-radius: 99px;
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 10px 0px;
+
+
+  border: 2px solid #EEECF1;
+}
+
+#medium-heading {
+  position: absolute;
+  height: 72px;
+  left: 24px;
+  right: 24px;
+  top: 748px;
+}
+
+h6 {
+  display: block;
+position: absolute;
+height: 40px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+/* IBM Plex Sans / 24 sp • H5 */
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+
+/* Gray / 5 */
+
+color: #EEECF1;
+}
+
+#right{
+  position: absolute;
+  left: 968px;
+  right: 142px;
+  top: 0px;
+  bottom: 0px;
+}
